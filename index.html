@@ -23,14 +23,15 @@
                 <li class="layui-nav-item">
                     <a href="javascript:;" class="userinfo">
                         <!-- 设置用户头像 -->
-                        <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+                        <img src="" class="layui-nav-img">
                         <span class="text-avatar">A</span>
                         个人中心
                     </a>
                     <dl class="layui-nav-child">
-                        <dd><a href="">基本资料</a></dd>
-                        <dd><a href="">更换头像</a></dd>
-                        <dd><a href="">重置密码</a></dd>
+                        <!-- 打开基本资料页面  target="fm"-->
+                        <dd><a href="./user/user_info.html" target="fm">基本资料</a></dd>
+                        <dd><a href="./user/user_avatar.html" target="fm">更换头像</a></dd>
+                        <dd><a href="./user/user_pwd.html" target="fm">重置密码</a></dd>
                     </dl>
                 </li>
                 <li class="layui-nav-item" id="out"><a href="javascript:;"><span
@@ -43,12 +44,13 @@
                 <ul class="layui-nav layui-nav-tree" lay-shrink="all">
                     <div class="userinfo">
                         <!-- 设置用户头像 -->
-                        <img src="http://t.cn/RCzsdCq" class="layui-nav-img" />
+                        <img src="" class="layui-nav-img" />
                         <span class="text-avatar">A</span>
                         <!-- 设置欢迎文本 -->
                         <span id="welcome">欢迎 ***</span>
                     </div>
                     <li class="layui-nav-item layui-this">
+                        <!--首页  target="fm"-->
                         <a href="/home/dashboard.html" target="fm"><span class="iconfont icon-home"></span>首页</a>
                     </li>
                     <li class="layui-nav-item">
@@ -62,9 +64,10 @@
                     <li class="layui-nav-item">
                         <a href="javascript:;"><span class="iconfont icon-user"></span>个人中心</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;">基本资料</a></dd>
-                            <dd><a href="javascript:;">更换头像</a></dd>
-                            <dd><a href="javascript:;">重置密码</a></dd>
+                            <!--  打开基本资料页面 -->
+                            <dd><a href="./user/user_info.html" target="fm">基本资料</a></dd>
+                            <dd><a href="./user/user_avatar.html" target="fm">更换头像</a></dd>
+                            <dd><a href="./user/user_pwd.html" target="fm">重置密码</a></dd>
                         </dl>
                     </li>
                 </ul>

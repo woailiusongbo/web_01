@@ -53,3 +53,6 @@
     top: 4px;
     margin-right: 10px;
   }
+  .layui-nav-img{
+    display: none;
+  }
